@@ -13,6 +13,6 @@
 end
 
 
-# 10.times do 
-#     SchoolClass.create(title: Faker::Educator.course_name,room_number: Faker::Number.between(from: 1, to: 100) )
-# end
+10.times do 
+    SchoolClass.create(title: Faker::Educator.course_name,room_number: Faker::Number.between(from: 1, to: 100) )
+end

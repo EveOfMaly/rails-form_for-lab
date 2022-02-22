@@ -2736,3 +2736,232 @@ Completed 200 OK in 94ms (Views: 44.5ms | ActiveRecord: 0.0ms)
 
 
   [1m[36mSchoolClass Load (6.0ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Herman"], ["last_name", "King"], ["created_at", "2022-02-22 19:46:33.420487"], ["updated_at", "2022-02-22 19:46:33.420487"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Reyes"], ["last_name", "Suzan"], ["created_at", "2022-02-22 19:46:33.432483"], ["updated_at", "2022-02-22 19:46:33.432483"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Minda"], ["last_name", "Tameka"], ["created_at", "2022-02-22 19:46:33.437805"], ["updated_at", "2022-02-22 19:46:33.437805"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Haywood"], ["last_name", "Hassie"], ["created_at", "2022-02-22 19:46:33.443853"], ["updated_at", "2022-02-22 19:46:33.443853"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Mark"], ["last_name", "Zina"], ["created_at", "2022-02-22 19:46:33.448728"], ["updated_at", "2022-02-22 19:46:33.448728"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Vanna"], ["last_name", "Rocco"], ["created_at", "2022-02-22 19:46:33.453782"], ["updated_at", "2022-02-22 19:46:33.453782"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Vito"], ["last_name", "Jonas"], ["created_at", "2022-02-22 19:46:33.459858"], ["updated_at", "2022-02-22 19:46:33.459858"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Xenia"], ["last_name", "Jackson"], ["created_at", "2022-02-22 19:46:33.466262"], ["updated_at", "2022-02-22 19:46:33.466262"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Mike"], ["last_name", "Lilia"], ["created_at", "2022-02-22 19:46:33.474149"], ["updated_at", "2022-02-22 19:46:33.474149"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["first_name", "Misti"], ["last_name", "Nathaniel"], ["created_at", "2022-02-22 19:46:33.479566"], ["updated_at", "2022-02-22 19:46:33.479566"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Psychology 359"], ["room_number", 32], ["created_at", "2022-02-22 19:46:33.491622"], ["updated_at", "2022-02-22 19:46:33.491622"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Biomedical Science 354"], ["room_number", 82], ["created_at", "2022-02-22 19:46:33.498014"], ["updated_at", "2022-02-22 19:46:33.498014"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Biological Science 357"], ["room_number", 74], ["created_at", "2022-02-22 19:46:33.502702"], ["updated_at", "2022-02-22 19:46:33.502702"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Arts 468"], ["room_number", 99], ["created_at", "2022-02-22 19:46:33.509078"], ["updated_at", "2022-02-22 19:46:33.509078"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Computer Science 227"], ["room_number", 72], ["created_at", "2022-02-22 19:46:33.513932"], ["updated_at", "2022-02-22 19:46:33.513932"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Information Systems 161"], ["room_number", 46], ["created_at", "2022-02-22 19:46:33.518472"], ["updated_at", "2022-02-22 19:46:33.518472"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Psychology 598"], ["room_number", 33], ["created_at", "2022-02-22 19:46:33.522444"], ["updated_at", "2022-02-22 19:46:33.522444"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Commerce 520"], ["room_number", 66], ["created_at", "2022-02-22 19:46:33.527085"], ["updated_at", "2022-02-22 19:46:33.527085"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Teaching 167"], ["room_number", 84], ["created_at", "2022-02-22 19:46:33.555570"], ["updated_at", "2022-02-22 19:46:33.555570"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Nursing 519"], ["room_number", 54], ["created_at", "2022-02-22 19:46:33.561413"], ["updated_at", "2022-02-22 19:46:33.561413"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/school_classes" for ::1 at 2022-02-22 14:46:48 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb
+  Rendered school_classes/index.html.erb (10.9ms)
+Completed 200 OK in 55ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/school_classes" for ::1 at 2022-02-22 14:46:57 -0500
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb
+  Rendered school_classes/index.html.erb (0.6ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mSchoolClass Load (4.5ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+  [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" ORDER BY "school_classes"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/school_classes" for ::1 at 2022-02-22 16:05:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb
+  Rendered school_classes/index.html.erb (43.8ms)
+Completed 200 OK in 201ms (Views: 127.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mSchoolClass Load (4.2ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "school_classes"[0m
+Started GET "/school_classes" for ::1 at 2022-02-22 16:19:23 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb
+  Rendered school_classes/index.html.erb (3.6ms)
+Completed 200 OK in 34ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/school_classes" for ::1 at 2022-02-22 16:21:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb
+  [1m[36mSchoolClass Load (0.6ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+  Rendered school_classes/index.html.erb (106.1ms)
+Completed 200 OK in 204ms (Views: 124.4ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/school_classes" for ::1 at 2022-02-22 16:21:54 -0500
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb
+  [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+  Rendered school_classes/index.html.erb (1.5ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/school_classes" for ::1 at 2022-02-22 16:22:45 -0500
+Processing by SchoolClassesController#index as HTML
+  Rendering school_classes/index.html.erb
+  [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT "school_classes".* FROM "school_classes"[0m
+  Rendered school_classes/index.html.erb (1.8ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/school_classes/1/" for ::1 at 2022-02-22 16:22:50 -0500
+Processing by SchoolClassesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSchoolClass Load (2.5ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering school_classes/show.html.erb
+  Rendered school_classes/show.html.erb (0.8ms)
+Completed 200 OK in 16ms (Views: 4.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/school_classes/new" for ::1 at 2022-02-22 16:23:00 -0500
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb
+  Rendered school_classes/new.html.erb (3731.5ms)
+Completed 200 OK in 3757ms (Views: 3739.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/school_classes" for ::1 at 2022-02-22 16:25:15 -0500
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUgZbhXM88akVRJ81V6AyCndvEXmnYVtY0V6yrfzOfuivj3mUkH3yuYg1VIbA1mlgIl47iBNcGhwqek0WO6V0A==", "school_class"=>{"title"=>"Test", "room_number"=>"Test"}, "commit"=>"Create School class"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.8ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Test"], ["room_number", 0], ["created_at", "2022-02-22 21:25:15.906521"], ["updated_at", "2022-02-22 21:25:15.906521"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+No template found for SchoolClassesController#create, rendering head :no_content
+Completed 204 No Content in 134ms (ActiveRecord: 15.9ms)
+
+
+Started POST "/school_classes" for ::1 at 2022-02-22 16:27:11 -0500
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUgZbhXM88akVRJ81V6AyCndvEXmnYVtY0V6yrfzOfuivj3mUkH3yuYg1VIbA1mlgIl47iBNcGhwqek0WO6V0A==", "school_class"=>{"title"=>"Test", "room_number"=>"Test"}, "commit"=>"Create School class"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.8ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Test"], ["room_number", 0], ["created_at", "2022-02-22 21:27:11.249906"], ["updated_at", "2022-02-22 21:27:11.249906"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/students/12
+Completed 302 Found in 29ms (ActiveRecord: 10.8ms)
+
+
+Started GET "/students/12" for ::1 at 2022-02-22 16:27:11 -0500
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  Rendering students/show.html.erb
+  Rendered students/show.html.erb (0.9ms)
+Completed 200 OK in 44ms (Views: 27.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/school_classes" for ::1 at 2022-02-22 16:27:20 -0500
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUgZbhXM88akVRJ81V6AyCndvEXmnYVtY0V6yrfzOfuivj3mUkH3yuYg1VIbA1mlgIl47iBNcGhwqek0WO6V0A==", "school_class"=>{"title"=>"Test", "room_number"=>"Test"}, "commit"=>"Create School class"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Test"], ["room_number", 0], ["created_at", "2022-02-22 21:27:20.787939"], ["updated_at", "2022-02-22 21:27:20.787939"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/students/13
+Completed 302 Found in 12ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/students/13" for ::1 at 2022-02-22 16:27:20 -0500
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering students/show.html.erb
+  Rendered students/show.html.erb (1.0ms)
+Completed 200 OK in 16ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/school_classes/new" for ::1 at 2022-02-22 16:27:51 -0500
+Processing by SchoolClassesController#new as HTML
+  Rendering school_classes/new.html.erb
+  Rendered school_classes/new.html.erb (31.3ms)
+Completed 200 OK in 113ms (Views: 56.4ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/school_classes" for ::1 at 2022-02-22 16:27:56 -0500
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQ/1b2NbDKelr1jon+5dwNZa7Swk4holTYQmBmC3wbGu+dHnJNYIq+fan8ZRs4Stfw4ph+Iy7yBeaLX4j6ptmg==", "school_class"=>{"title"=>"Test", "room_number"=>"TEst"}, "commit"=>"Create School class"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "school_classes" ("title", "room_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Test"], ["room_number", 0], ["created_at", "2022-02-22 21:27:56.667793"], ["updated_at", "2022-02-22 21:27:56.667793"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/school_classes/14
+Completed 302 Found in 7ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/school_classes/14" for ::1 at 2022-02-22 16:27:56 -0500
+Processing by SchoolClassesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mSchoolClass Load (0.3ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering school_classes/show.html.erb
+  Rendered school_classes/show.html.erb (0.6ms)
+Completed 200 OK in 14ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/school_classes/14" for ::1 at 2022-02-22 16:28:44 -0500
+Processing by SchoolClassesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mSchoolClass Load (0.2ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering school_classes/show.html.erb
+  Rendered school_classes/show.html.erb (0.8ms)
+Completed 200 OK in 7ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/school_classes/14" for ::1 at 2022-02-22 16:29:02 -0500
+Processing by SchoolClassesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mSchoolClass Load (0.1ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering school_classes/show.html.erb
+  Rendered school_classes/show.html.erb (0.5ms)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.1ms)
+
+
